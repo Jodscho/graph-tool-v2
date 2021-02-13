@@ -1,0 +1,110 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Arrow	base/base.shapes.js	/^export function Arrow(config){$/;"	E
+DEFAULT_ARROW	graph.util/shape.js	/^const DEFAULT_ARROW = {$/;"	O
+DEFAULT_RECTANGLE	graph.util/shape.js	/^const DEFAULT_RECTANGLE = {$/;"	O
+MouseHandler	base/base.mouse.handler.js	/^export function MouseHandler(canvas){$/;"	E
+Rectangle	base/base.shapes.js	/^export function Rectangle(config){$/;"	E
+SceneInteraction	base/base.scene.interaction.js	/^export function SceneInteraction(scene){$/;"	E
+SceneModel	base/base.scene.model.js	/^export function SceneModel() {$/;"	E
+Shape	base/base.shapes.js	/^function Shape(id, type){$/;"	F
+ShapeHandler	base/base.shape.handler.js	/^export function ShapeHandler() {$/;"	E
+aquireShape	base/base.shape.handler.js	/^    obj.aquireShape = function(mouse) {$/;"	M
+aquiredShapeId	base/base.shape.handler.js	/^    let aquiredShapeId;$/;"	V
+canvas	base/canvas/base.canvas.js	/^    let canvas;$/;"	V
+clearScene	base/canvas/base.canvas.js	/^    obj.clearScene = function() { obj.ctx.clearRect(0, 0, canvas.width, canvas.height); }$/;"	M
+clickHandler	base/base.scene.interaction.js	/^    function clickHandler(event, eventType) {$/;"	F
+clickHandler	base/base.scene.interaction.js	/^    obj.clickHandler = function(event) {$/;"	M
+color	graph.util/shape.js	/^    color: "white",$/;"	P
+createArrow	graph.util/shape.js	/^export function createArrow(pos){$/;"	E
+createCanvas	base/canvas/base.canvas.js	/^export function createCanvas(){$/;"	E
+createRectangle	graph.util/shape.js	/^export function createRectangle(pos) {$/;"	E
+createScene	base/base.scene.js	/^export function createScene(){$/;"	E
+d1	base/base.shapes.js	/^        let d1, d2, d3;$/;"	V
+d2	base/base.shapes.js	/^        let d1, d2, d3;$/;"	V
+d3	base/base.shapes.js	/^        let d1, d2, d3;$/;"	V
+dblclickHandler	base/base.scene.interaction.js	/^    obj.dblclickHandler = function(event) {$/;"	M
+diff	base/base.mouse.handler.js	/^        let diff = {$/;"	O
+draw	base/base.shapes.js	/^    obj.draw = function(ctx) {$/;"	M
+draw	base/base.shapes.js	/^    obj.draw = function(ctx){$/;"	M
+drawArrow	base/canvas/base.canvas.js	/^export function drawArrow(ctx, arrow) {$/;"	E
+drawRectangle	base/canvas/base.canvas.js	/^export function drawRectangle(ctx, rec) {$/;"	E
+drawScene	base/base.scene.js	/^    obj.drawScene = function() {$/;"	M
+duringMovingHandler	base/base.scene.interaction.js	/^    obj.duringMovingHandler = function(event) {$/;"	M
+executeShapeHandler	base/base.shape.handler.js	/^    obj.executeShapeHandler = function(eventType){$/;"	M
+findShapeById	base/base.scene.model.js	/^    obj.findShapeById = function(id){$/;"	M
+freezeMousePosition	base/base.mouse.handler.js	/^    obj.freezeMousePosition = function(event){$/;"	M
+fromx	graph.util/shape.js	/^    fromx: 30,$/;"	P
+fromy	graph.util/shape.js	/^    fromy: 30,$/;"	P
+getDifference	base/base.mouse.handler.js	/^    obj.getDifference = function(){$/;"	M
+getMousePos	base/canvas/base.canvas.js	/^    obj.getMousePos = function(evt){$/;"	M
+getShapesIdx	base/base.scene.model.js	/^    obj.getShapesIdx = function() { return shapesIdx };$/;"	M
+handlers	base/base.shapes.js	/^    obj.handlers = {};$/;"	P
+has_neg	base/base.shapes.js	/^        has_neg = (d1 < 0) || (d2 < 0) || (d3 < 0);$/;"	M
+has_neg	base/base.shapes.js	/^        let has_neg, has_pos;$/;"	V
+has_pos	base/base.shapes.js	/^        has_pos = (d1 > 0) || (d2 > 0) || (d3 > 0);$/;"	M
+has_pos	base/base.shapes.js	/^        let has_neg, has_pos;$/;"	V
+height	graph.util/shape.js	/^    height: 50,$/;"	P
+if	base/base.scene.interaction.js	/^        if(!shapeFound){$/;"	M
+if	base/base.scene.interaction.js	/^        if(!shapeHandler.aquireShape(mouse)){$/;"	M
+if	base/base.scene.interaction.js	/^        if(!shapeHandler.isShapeAquired()) {$/;"	M
+if	base/base.scene.model.js	/^            if(shapes[i].id == id){$/;"	M
+if	base/base.scene.model.js	/^        if(defaults) {$/;"	M
+if	base/base.shape.handler.js	/^        if(aquiredShapeIdx == shapesIdx.length -1){$/;"	M
+if	base/base.shape.handler.js	/^        if(shape.handlers[eventType]){$/;"	M
+if	graph.util/shape.js	/^    if(pos) {$/;"	M
+init	base/base.scene.interaction.js	/^    obj.init = function(s, m) {$/;"	M
+init	base/base.scene.js	/^    obj.init = function(defaults, id){$/;"	M
+init	base/base.scene.model.js	/^    obj.init = function(defaults) {$/;"	M
+init	base/base.shape.handler.js	/^    obj.init = function(s){$/;"	M
+init	base/canvas/base.canvas.js	/^    obj.init = function(id){$/;"	M
+initShapesArray	base/base.scene.model.js	/^    function initShapesArray() {$/;"	F
+isPointInShape	base/base.shapes.js	/^    obj.isPointInShape = function(mouse) {$/;"	M
+isPointInShape	base/base.shapes.js	/^    obj.isPointInShape = function(mouse){$/;"	M
+isShapeAquired	base/base.shape.handler.js	/^    obj.isShapeAquired = function() { return !(aquiredShapeIdx == -1); }$/;"	M
+mouseHandler	base/base.scene.interaction.js	/^    let mouseHandler;$/;"	V
+mousePos	base/base.mouse.handler.js	/^    let mousePos;$/;"	V
+moveShapeToBack	base/base.scene.model.js	/^    obj.moveShapeToBack = function(id) {$/;"	M
+obj	base/base.mouse.handler.js	/^    let obj = {};$/;"	O
+obj	base/base.scene.interaction.js	/^    var obj = {};$/;"	O
+obj	base/base.scene.js	/^    let obj = {};$/;"	O
+obj	base/base.scene.model.js	/^    let obj = {};$/;"	O
+obj	base/base.shape.handler.js	/^    let obj = {};$/;"	O
+obj	base/base.shapes.js	/^    let obj = {};    $/;"	O
+obj	base/canvas/base.canvas.js	/^    let obj = {};$/;"	O
+objects	entry.js	/^let objects = [$/;"	A
+on	base/base.shapes.js	/^    obj.on = function(eventType, handler){$/;"	M
+postMovingHandler	base/base.scene.interaction.js	/^    obj.postMovingHandler = function(event){$/;"	M
+preMovingHandler	base/base.scene.interaction.js	/^    obj.preMovingHandler = function(event){$/;"	M
+rec	entry.js	/^    rec,$/;"	V
+releaseShape	base/base.shape.handler.js	/^    obj.releaseShape = function() { aquiredShapeIdx = -1; }$/;"	M
+repositionShape	base/base.shape.handler.js	/^    function repositionShape(){$/;"	F
+sceneModel	base/base.scene.js	/^    let sceneModel;$/;"	V
+sceneModel	base/base.shape.handler.js	/^    let sceneModel;$/;"	V
+setCursor	base/canvas/base.canvas.js	/^    obj.setCursor = function(c) {$/;"	M
+setMouseHandlers	base/canvas/base.canvas.js	/^    obj.setMouseHandlers = function(controller) {$/;"	M
+shapeHandler	base/base.scene.interaction.js	/^    let shapeHandler;$/;"	V
+shapes	base/base.scene.model.js	/^    let shapes = [];$/;"	A
+shapesIdx	base/base.scene.model.js	/^    let shapesIdx = [];$/;"	A
+sign	base/base.shapes.js	/^function sign(p1, p2, p3) {$/;"	F
+stroke	graph.util/shape.js	/^    stroke: 2,$/;"	P
+tipEndx	base/canvas/base.canvas.js	/^    let tipEndx;$/;"	V
+tipEndy	base/canvas/base.canvas.js	/^    let tipEndy;$/;"	V
+tipLen	base/canvas/base.canvas.js	/^    let tipLen = 25;$/;"	V
+tipWidth	base/canvas/base.canvas.js	/^    let tipWidth = 20;$/;"	V
+tox	graph.util/shape.js	/^    tox: 60,$/;"	P
+toy	graph.util/shape.js	/^    toy: 30,$/;"	P
+type	graph.util/shape.js	/^    type: "arrow"$/;"	P
+type	graph.util/shape.js	/^    type: "rec"$/;"	P
+updateAquiredShapesPosition	base/base.shape.handler.js	/^    obj.updateAquiredShapesPosition = function(diffX, diffY) {$/;"	M
+updateShapePosition	base/base.shapes.js	/^    obj.updateShapePosition = function(diffX, diffY){$/;"	M
+v1	base/canvas/base.canvas.js	/^    arrow.v1 = { "x": endx, "y": endy};$/;"	P
+v2	base/canvas/base.canvas.js	/^    arrow.v2 = { "x": endx2, "y": endy2 };$/;"	P
+v3	base/canvas/base.canvas.js	/^    arrow.v3 = { "x": arrow.tox, "y": arrow.toy };$/;"	P
+width	graph.util/shape.js	/^    width: 50,$/;"	P
+x	graph.util/shape.js	/^    x: 20,$/;"	P
+y	graph.util/shape.js	/^    y: 20,$/;"	P
